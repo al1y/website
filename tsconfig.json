@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "module": "commonjs",
+    "target": "es5",
+    "jsx": "react",
+    "noImplicitAny": true,
+    "skipLibCheck": true,
+    "noImplicitReturns": true,
+    "strictNullChecks": true,
+    "noFallthroughCasesInSwitch": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "types": [
+      "node"
+    ],
+    "lib": [
+      "dom",
+      "es5",
+      "es6",
+      "es2016.array.include"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
+}

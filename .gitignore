@@ -1,0 +1,17 @@
+# NPM
+node_modules/
+*npm-debug.log
+
+# Build pipeline
+dist/
+
+# Hail typescript overlords
+**/*.js
+**/*.js.map
+!webpack/*
+
+# macOS
+*.DS_Store
+
+# WebStorm
+.idea/

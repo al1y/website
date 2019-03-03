@@ -1,0 +1,46 @@
+html, body, body > div {
+    margin: 0;
+    height: 100% !important;
+    font-family: "Soleil", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+@font-face {
+    font-family: 'Soleil';
+    src: local('Soleil'), url(../assets/fonts/Soleil-Regular.otf) format('opentype');
+}
+
+.app {
+    height: 100%;
+    padding: 0 10%;
+    display: flex;
+    flex-flow: column;
+}
+
+.header {
+    flex: 0 1 auto;
+    padding: 100px 0 60px 0;
+    display: flex;
+}
+
+.headerText {
+    flex: 1 1 auto;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.mainText {
+    flex: 0 0 auto;
+    font-size: 30px;
+}
+
+.picWrapper {
+    flex: 0 1 auto;
+    padding-right: 20px;
+}
+
+.pic {
+    width: 200px;
+}

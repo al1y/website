@@ -7,3 +7,9 @@ phases:
   build:
     commands:
       - npm run dist
+
+artifacts:
+    base-directory: 'dist'
+    files:
+        - '**/*'
+

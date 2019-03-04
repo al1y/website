@@ -3,7 +3,7 @@ version: 0.2
 phases:
   pre_build:
     commands:
-      - docker login -u ${DOCKER_USERNAME} -p ${DOCKER_PASSWORD}
+      - npm run setup
   build:
     commands:
       - npm run dist

@@ -5,10 +5,13 @@ node_modules/
 # Build pipeline
 dist/
 
+# Direnv
+.envrc
+
 # Hail typescript overlords
 **/*.js
 **/*.js.map
-!webpack/*
+!webpack/*£
 
 # macOS
 *.DS_Store
